@@ -5,6 +5,8 @@
 #include "../include/mainMenu.h"
 #include "../include/learning.h"
 #include "../include/globalConst.h"
+#include "../include/tictactoe.h"
+
 
 void menuDisplay(void)
 {
@@ -20,7 +22,16 @@ void menuDisplay(void)
 
 
         std::cin >> selection;
-        menuSelection(selection);
+
+        if (selection == 1 || selection == 2)
+        {
+            menuSelection(selection);
+        }
+        else
+        {
+            continue;
+        }
+
     }
 }
 
@@ -29,8 +40,8 @@ void menuSelection(int selection)
 {
     if (selection == 1)
     {
-        std::cout << "\t1. Aprender sobre variables: Numeros" << std::endl;
-        std::cout << "\t2. Aprender sobre variables: Letras" << std::endl;
+        std::cout << "\t1. Aprender sobre variables: Numeros\n" << std::endl;
+        std::cout << "\t2. Aprender sobre variables: Letras\n" << std::endl;
         std::cout << "---> ";
 
 
@@ -51,4 +62,25 @@ void menuSelection(int selection)
             break;
         }
     }
+    else
+    {
+        std::cout << "\t1. Jugar Michi\n" << std::endl;
+        std::cout << "---> ";
+
+
+        int selection = 0;
+        std::cin >> selection;
+
+
+        switch (selection)
+        {
+        case 1:
+            system("CLS");
+            mainGame();
+            break;
+        default:
+            break;
+        }
+    }
+    
 }

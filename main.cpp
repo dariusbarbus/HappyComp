@@ -12,12 +12,11 @@
 
 int main()
 {    
-    //introAnim();
-    //getName();
+    introAnim();
+    getName();
 
-   //menuDisplay();
+    menuDisplay();
 
-    board();
 
     return 0; 
 }

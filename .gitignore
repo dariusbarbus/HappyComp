@@ -1,0 +1,42 @@
+## Folders
+**/target/
+**/.idea/
+**/test/
+**/testProject/
+**/.vs
+**/x64
+**/.vscode
+**/bin
+**/build
+**/Debug
+
+#First Term
+/First Term/English/
+/First Term/Operating System Fundamentals/
+/First Term/Software Engineering Fundamental/
+/First Term/User Interface/
+
+##Extensions
+**.exe
+**.bk
+**.iml
+**.pdb
+**.pdf
+**.exe
+**.obj
+**.db
+**.user
+**.filters
+**.log
+**.temp
+**.tmp
+**.ninja_log
+**.ninja
+**.jpeg
+**.png
+**.jpg
+**.zip
+**.ppt
+**.pptx
+**.vcxproj
+**.sln

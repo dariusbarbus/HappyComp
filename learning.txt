@@ -1,0 +1,14 @@
+--variablesNumeros
+
+Una variable es simplemente un nombre que se le da a un elemento para almacenar algun tipo de informacio, en esta lectura, vamos a aprender sobre una de las variables primitivas llamada int o integer.
+Por ejemplo, podemos crear una variable de nombre analia que contenga el numero 10, por lo que el numero 10 esta relacionado a analia y esto nos permite utilizarlo o modificarlo.
+La forma de escribir esta variable es int(el tipo de information) analia(el nombre de la variable) = 10(el valor de la variable.
+Se veria asi: int analia = 10;
+
+*
+
+--variablesLetras
+
+este es un ejemplo de otro texto. 
+
+*

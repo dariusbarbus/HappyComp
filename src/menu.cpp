@@ -14,8 +14,9 @@ void menuDisplay(void)
 
     while (selection != 3)
     {
+        std::cout << "\n\n";
         std::cout << "Que te gustaria hacer hoy?\n" << std::endl;
-        std::cout << "\t1. Aprender sobre programacion?\n" << std::endl; 
+        std::cout << "\t1. Aprender sobre programacion\n" << std::endl; 
         std::cout << "\t2. Jugar\n" << std::endl; 
         std::cout << "\t3. Salir\n" << std::endl;
         std::cout << "---> ";

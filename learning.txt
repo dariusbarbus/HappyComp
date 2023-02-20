@@ -1,0 +1,78 @@
+--variablesNumeros
+
+
+
+
+##################################
+#    ACA EMPIEZA LA LECTURA      #
+##################################
+
+
+Variables int
+
+Una variable es simplemente un nombre que se le da a un elemento para almacenar algun tipo de informacio, en esta lectura, vamos a aprender sobre una de las variables primitivas llamada int o integer.
+
+Por ejemplo, podemos crear una variable de nombre analia que contenga el numero 10, por lo que el numero 10 esta relacionado a analia y esto nos permite utilizarlo o modificarlo.
+
+La forma de escribir esta variable es int(el tipo de valor) analia(el nombre de la variable) = 10(el valor de la variable.
+
+Se veria asi: int analia = 10;
+
+Y seguro te preguntaras, de que me sirve hacer esto, bueno, con variables puedes hacer muchas cosas como operaciones matematicas.
+
+Digamos que queremos hacer una suma, tenemos una variable llamada a y una variable llamada b. El valor de a sera 10 y el valor de b sera 5.
+
+Se verian asi:
+
+int a = 10;
+int b = 5;
+
+Y si los queremos sumar podemos simplemente escribir: a + b. 
+
+Pero eso no es todo, recuerda que una variable tiene un numero solamente, entonces a = 10 y b = 5, pero el resultado seria un numero totalmente nuevo, asi que podemos crear una variable que tenga el resultado de la suma.
+
+Podria ser algo asi:
+
+int suma = a + b;
+
+Esto no es suficiente para tener un programa funcionando, asi que te dare el codigo para que puerdas usarlo en esta pagina: https://www.onlinegdb.com/online_c++_compiler
+
+Todo lo que tienes que hacer es remplazar lo que esta en la pantalla por el siguiente codigo:
+
+############################################
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int a = 10; //el valor de la variable a es 10
+	int b = 5; //el valor de la variable b es 5
+
+	int suma = a + b; //la variable suma tendra el resultado de la suma
+	
+	cout << suma << endl;
+    return 0;
+}
+
+###########################################
+
+Prueba cambiando los numeros o agregando nuevas variables, puedes hacer c = 20; solo recuerda que debes escribir int(el tipo de valor) c(el nombre de la variable) = 10(el valor de la variable. Y NO OLVIDES LA ';' al final de cada linea.
+
+No te preocupes por el resto de cosas, poco a poco iras aprendiendo que son.
+
+
+##################################
+#    ACA TERMINA LA LECTURA      #
+##################################
+
+
+
+*
+
+--variablesLetras
+
+este es un ejemplo de otro texto. 
+
+*

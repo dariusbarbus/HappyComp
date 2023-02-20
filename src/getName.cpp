@@ -89,7 +89,7 @@ void showNameAnim(std::string name)
             std::this_thread::sleep_for(std::chrono::milliseconds(25));
             if(name[j] == alphaShufle[i])
             {
-                std::cout << name[j]; 
+                std::cout << name[j];
                 break;
             }
         }   

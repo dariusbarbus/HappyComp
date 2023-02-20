@@ -12,7 +12,7 @@ void learning(std::string choice)
     char delimiter = '*';
 
     std::fstream fp;
-    fp.open("learning.txt", std::ios::in);
+    fp.open("learning.db", std::ios::in);
 
     //check if file is open
     if(!fp)

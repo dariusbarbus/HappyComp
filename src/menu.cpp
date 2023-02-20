@@ -10,15 +10,18 @@ void menuDisplay(void)
 {
     int selection = 0;
 
+    while (selection != 3)
+    {
+        std::cout << "Que te gustaria hacer hoy?\n" << std::endl;
+        std::cout << "\t1. Aprender sobre programacion?\n" << std::endl; 
+        std::cout << "\t2. Jugar\n" << std::endl; 
+        std::cout << "\t3. Salir\n" << std::endl;
+        std::cout << "---> ";
 
-    std::cout << "Que te gustaria hacer hoy?\n" << std::endl;
-    std::cout << "\t1. Aprender sobre programacion?\n" << std::endl; 
-    std::cout << "\t2. Jugar\n" << std::endl; 
-    std::cout << "---> ";
 
-
-    std::cin >> selection;
-    menuSelection(selection);
+        std::cin >> selection;
+        menuSelection(selection);
+    }
 }
 
 //NOT FINISHED
@@ -38,6 +41,7 @@ void menuSelection(int selection)
         switch (selection)
         {
         case 1:
+            system("CLS");
             learning(learingOptions[0]);
             break;
         case 2:

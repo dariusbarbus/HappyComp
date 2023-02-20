@@ -6,15 +6,18 @@
 #include "include/getName.h"
 #include "include/mainMenu.h"
 #include "include/learning.h"
+#include "include/tictactoe.h"
 
 
 
-int main(void)
+int main()
 {    
     //introAnim();
     //getName();
 
-    menuDisplay();
+   //menuDisplay();
+
+    board();
 
     return 0; 
 }
